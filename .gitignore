@@ -1,0 +1,4 @@
+# ignore generated html files,
+*.env
+# Dependency directories
+node_modules/
