@@ -5,7 +5,7 @@ const users = require('../controllers/users');
 
 module.exports = (()=>{
     api.get('/list',
-        users.validUser, users.list
+       users.list
     )
     api.get('/customList',
         users.validUser, users.customList
