@@ -12,7 +12,7 @@ module.exports = (()=>{
     });
 
     api.get('/',(req,res,next)=>res.send({
-        message : 'API Hola'
+        message : 'API adios'
     }))
     return api;
 })()
